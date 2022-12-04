@@ -240,6 +240,9 @@ color: #414b3b;
 .banner {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.300));
+  
+    /* Bildet i linjen under er tatt av Nick Karvounis , hentet fra open source-nettsiden Unsplash: https://unsplash.com/photos/Ciqxn7FE4vE */
+  
   background-image: url(https://images.unsplash.com/photo-1552566626-52f8b828add9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80); 
   display: flex;
   flex-direction: column;
@@ -496,15 +499,19 @@ color: white
   height: 100vh;
   background-size: cover;
 }
+/* Bildet under er tatt av Raul Gonzalez Escobar, og hentet ut fra open source nettstedet Unsplash: https://unsplash.com/photos/ZpIskW1Tuvc */
 .image1 {
   background-image: url("https://images.unsplash.com/photo-1607349913338-fca6f7fc42d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80");
 }
+/* Bildet under er tatt av Rob Maxwell, og hentet ut fra open source nettstedet Unsplash: https://unsplash.com/photos/6Xb0-zJM_lU */
 .image2 {
   background-image: url("https://images.unsplash.com/photo-1557333610-90ee4a951ecf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
 }
+/* Bikdet under er tatt av Franki Chamaki, og hentet ut fra open source nettstedet Unsplash: https://unsplash.com/photos/ivfp_yxZuYQ */
 .image3 {
   background-image: url("https://images.unsplash.com/photo-1604719312566-8912e9227c6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
 }
+/* Bildet under er tatt av gemma (_gemmajade), og hentet ut fra open source nettstedet Unsplash: https://unsplash.com/photos/stpjHJGqZyw */
 .image4 {
   background-image: url("https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
 }

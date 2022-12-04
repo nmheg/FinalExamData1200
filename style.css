@@ -508,6 +508,21 @@ color: #414b3b;
   
 }
 
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+  font-size: 15px;
+  font-display: bold;
+  }
+  .tittelBooking{
+    font-size:large;
+    margin: 10%;
+}
+  .salesBooking{
+    font-size: larger;
+    margin: 10%;
+  }
+
+}
+
 /* CSS for TOPICAL PAGE -------------------- */
 
 .big-image {

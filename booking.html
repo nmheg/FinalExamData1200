@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img
+          src="https://images2.imgbox.com/ff/b4/YkWto2B3_o.png"
+          alt="Logo and link to homepage"
+        />
+      </a>
+    </div>
+    <div class="navigation">
+      <input type="checkbox" class="toggle-meny" />
+      <div class="hamburger"></div>
+
+      <ul class="navbar">
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="meny.html">Menu</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+        <li><a href="topical.html">Topical</a></li>
+      </ul>
+    </div>
+
+    <!--Inspirasjon til hvordan vi har utformet reservasjonfunkjsonen er hentet fra her:
+    
+      https://www.youtube.com/watch?v=Bs2jdg0oRLM
+  -->
+  </header>
+    <div class = "tittelBooking">Bookings and Reservations</div>
+    <div class = "salesBooking"> We can take your booking here, please fill up the form below and we will reach out to you. <br>
+     Our venues are located at the beautiful castle, in <a href="https://www.google.com/maps/place/Slottsplassen+1,+0010+Oslo/@59.917063,10.7255359,17z/data=!3m1!4b1!4m5!3m4!1s0x46416e7f0be2b2c5:0x8059766c6ac39464!8m2!3d59.917063!4d10.7277246"> Slottsplassen 1</a>. We may host parties with guests up to 12 people in our own designated section of the restaurant.
+    <br> If we are out of space for the requested amount we will reach out to you. <br>Please bear in mind that we do bookings up to 1 week in advance 
+    the day you choose in the booking is the upcoming day. </div>
+    <section class = "banner">
+        <div class =titleBooking>BOOK YOUR TABLE HERE!
+        </div>
+    
+    <div class = "bilderamme-innhold">
+      <h3> Reservation</h3>  
+      
+        <form> 
+            <div class = "form-row">
+            <select name = "days">
+                <option value = "day-select"> Select Day </option>
+                <option value = "sunday"> Sunday </option> 
+                <option value = "monday"> Monday </option> 
+                <option value = "tuesday"> Tuesday </option> 
+                <option value = "wednesday"> Wednesday </option> 
+                <option value = "thursday"> Thursday </option> 
+                <option value = "friday"> Friday </option> 
+                <option value = "saturday"> Saturday </option> 
+              
+            </select>
+
+            <select name = "hours">
+                <option value = "hour-select"> Select hour </option>
+                <option value = "16"> 16:00 </option>
+                <option value = "17"> 17:00 </option>
+                <option value = "18"> 18:00 </option>
+                <option value = "19"> 19:00 </option>
+                <option value = "20"> 20:00 </option>
+                <option value = "21"> 21:00 </option>
+                <option value = "22"> 22:00 </option>
+            </select>
+        </div>
+
+        <div class = "form-row">
+            <input type = "text"
+            placeholder = "Full Name">
+            <input type = "text"
+            placeholder = "Phone Number">
+        </div>
+
+        <div class ="form-row">
+            <input type = "number"
+            placeholder="How many guests?" min = "1" max="12">
+            <input type = "submit" value = "Book table!">
+
+        </div>
+    </form>
+</div>
+</div>
+</section>
+
+   <footer>
+     <div class="grid-container">
+       <div> <h4 style="color: white;">About us:</h4> <p style="color: white;">Email: <a href="mailto:thadsiniem@gmail.com" id="link1">thadsiniem@gmail.com</a></p>
+     <p style="color: white;">Phone: <a href="tel:+ 22 43 75 66" id="link1">22 43 75 66</a></p></div>
+       <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1999.9085130900355!2d10.725535915542002!3d59.917065670801485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e7f0be2b2c5%3A0x8059766c6ac39464!2sSlottsplassen%201%2C%200010%20Oslo!5e0!3m2!1sno!2sno!4v1668597397158!5m2!1sno!2sno" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsivemap"></iframe></div>
+       <div><a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        <a href="https://no.tripadvisor.com/" class="fa fa-tripadvisor"></a>
+      </div> 
+    </div>
+  </footer>
+</body>
+</html>

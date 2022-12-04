@@ -503,6 +503,7 @@ color: #414b3b;
   text-align: center;
   padding-bottom: 5%;
   padding-top: 2%;
+  padding-right: 5%;
   font-size: larger;
   color: #414b3b;
   
@@ -654,11 +655,11 @@ color: #414b3b;
   }
   .tittelBooking{
     font-size:large;
-    margin: 10%;
+    margin: 5%;
 }
   .salesBooking{
     font-size: larger;
-    margin: 10%;
+    margin: 5%;
   }
 }
 
@@ -693,10 +694,10 @@ color: #414b3b;
   }
   .tittelBooking{
     font-size:large;
-    margin: 10%;
+    margin: 5%;
 }
   .salesBooking{
     font-size: larger;
-    margin: 10%;
+    margin: 5%;
   }
 }

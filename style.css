@@ -490,7 +490,23 @@ color: white
   justify-content: space-evenly;
 }
 
+                                               /*CSS for Accessibility*/
+.tittelAccessibility{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+color: #414b3b;
 
+}
+  
+.contentAccessibility {
+  text-align: center;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  font-size: larger;
+  color: #414b3b;
+  
+}
 
 /* CSS for TOPICAL PAGE -------------------- */
 
